@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79c45f6b-94e0-4e6b-9cd2-61260c413174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo03_Exception_throw_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo04_Exception_requireNonNull_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo05_Exception_throws_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo06_Exception_tryCatch_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo07_Exception_Throwable_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo09_Exception_finally_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo10_Exception_multiple_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo11_Exception_inheritance_father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo/RegisterException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception/com/zhouyi/demo01/Demo02_Exception_process_demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception/com/zhouyi/demo01/Demo02_Exception_process_demo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,53 +22,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo01_Exception_type_demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo02_Exception_process_demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo03_Exception_throw_demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo04_Exception_requireNonNull_demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="546">
               <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo05_Exception_throws_demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="819">
+              <caret line="42" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo06_Exception_tryCatch_demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="462">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Objects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="218" column="3" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="222" selection-end-column="5" />
+            <state relative-caret-position="3738">
+              <caret line="218" column="3" selection-start-line="218" selection-start-column="3" selection-end-line="222" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -110,8 +69,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Throwable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+            <state relative-caret-position="7434">
+              <caret line="380" column="28" selection-start-line="380" selection-start-column="28" selection-end-line="380" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo07_Exception_Throwable_demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo09_Exception_finally_demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo11_Exception_inheritance_father.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo/RegisterException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo10_Exception_multiple_demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +139,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getMessage</find>
+      <find>getMessage</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,14 +160,23 @@
         <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo04_Exception_requireNonNull_demo.java" />
         <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo05_Exception_throws_demo.java" />
         <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo06_Exception_tryCatch_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo07_Exception_Throwable_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo10_Exception_multiple_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo09_Exception_finally_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/com/zhouyi/domain/Father.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo11_Exception_inheritance_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo11_Exception_inheritance_father.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo/Demo12_Exception_customException_demo.java" />
+        <option value="$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo/RegisterException.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-73" />
+    <option name="width" value="1550" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,11 +210,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jave_basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jave_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo12_Exception_customException_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +243,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,101 +257,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo06_Exception_tryCatch_demo.tryCatchTest">
-    <configuration name="Demo03_Exception_throw_demo.throwNullPointerExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Demo09_Exception_finally_demo.finallyReturnTest">
+    <configuration name="Demo09_Exception_finally_demo.finallyReturnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhouyi.demo01.*" />
+          <option name="PATTERN" value="com.zhouyi.demo01.Demo12_Exception_customException_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhouyi.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo03_Exception_throw_demo" />
-      <option name="METHOD_NAME" value="throwNullPointerExceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo09_Exception_finally_demo" />
+      <option name="METHOD_NAME" value="finallyReturnTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04_Exception_requireNonNull_demo.objectsRequireNonNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo09_Exception_finally_demo.finallyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhouyi.demo01.*" />
+          <option name="PATTERN" value="com.zhouyi.demo01.Demo12_Exception_customException_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhouyi.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo04_Exception_requireNonNull_demo" />
-      <option name="METHOD_NAME" value="objectsRequireNonNullTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo09_Exception_finally_demo" />
+      <option name="METHOD_NAME" value="finallyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04_Exception_requireNonNull_demo.requireNonNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhouyi.demo01.*" />
+          <option name="PATTERN" value="com.zhouyi.demo01.Demo12_Exception_customException_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhouyi.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo04_Exception_requireNonNull_demo" />
-      <option name="METHOD_NAME" value="requireNonNullTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo10_Exception_multiple_demo" />
+      <option name="METHOD_NAME" value="multipleProcessTest01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo05_Exception_throws_demo.throwsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhouyi.demo01.*" />
+          <option name="PATTERN" value="com.zhouyi.demo01.Demo12_Exception_customException_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhouyi.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo05_Exception_throws_demo" />
-      <option name="METHOD_NAME" value="throwsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo10_Exception_multiple_demo" />
+      <option name="METHOD_NAME" value="multipleProcessTest02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo06_Exception_tryCatch_demo.tryCatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhouyi.demo01.*" />
+          <option name="PATTERN" value="com.zhouyi.demo01.Demo12_Exception_customException_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zhouyi.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo06_Exception_tryCatch_demo" />
-      <option name="METHOD_NAME" value="tryCatchTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zhouyi.demo01.Demo10_Exception_multiple_demo" />
+      <option name="METHOD_NAME" value="multipleProcessTest03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Demo03_Exception_throw_demo.throwNullPointerExceptionTest" />
-      <item itemvalue="JUnit.Demo04_Exception_requireNonNull_demo.requireNonNullTest" />
-      <item itemvalue="JUnit.Demo04_Exception_requireNonNull_demo.objectsRequireNonNullTest" />
-      <item itemvalue="JUnit.Demo05_Exception_throws_demo.throwsTest" />
-      <item itemvalue="JUnit.Demo06_Exception_tryCatch_demo.tryCatchTest" />
+      <item itemvalue="JUnit.Demo09_Exception_finally_demo.finallyTest" />
+      <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest01" />
+      <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest02" />
+      <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest03" />
+      <item itemvalue="JUnit.Demo09_Exception_finally_demo.finallyReturnTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo06_Exception_tryCatch_demo.tryCatchTest" />
-        <item itemvalue="JUnit.Demo05_Exception_throws_demo.throwsTest" />
-        <item itemvalue="JUnit.Demo04_Exception_requireNonNull_demo.objectsRequireNonNullTest" />
-        <item itemvalue="JUnit.Demo04_Exception_requireNonNull_demo.requireNonNullTest" />
-        <item itemvalue="JUnit.Demo03_Exception_throw_demo.throwNullPointerExceptionTest" />
+        <item itemvalue="JUnit.Demo09_Exception_finally_demo.finallyReturnTest" />
+        <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest03" />
+        <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest01" />
+        <item itemvalue="JUnit.Demo10_Exception_multiple_demo.multipleProcessTest02" />
+        <item itemvalue="JUnit.Demo09_Exception_finally_demo.finallyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -327,64 +366,65 @@
       <option name="presentableId" value="Default" />
       <updated>1565060211515</updated>
       <workItem from="1565060215571" duration="3858000" />
-      <workItem from="1565073497788" duration="4036000" />
+      <workItem from="1565073497788" duration="5594000" />
+      <workItem from="1565090398925" duration="3556000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo03_Exception_throw_demo_test - 2019.08.06 at 14h 52m 22s.xml">
-      <configuration name="Demo03_Exception_throw_demo.test" configurationId="JUnit" />
+    <history-entry file="Demo07_Exception_Throwable_demo_throwableTest - 2019.08.06 at 17h 58m 52s.xml">
+      <configuration name="Demo07_Exception_Throwable_demo.throwableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo03_Exception_throw_demo_throwNullPointerExceptionTest - 2019.08.06 at 14h 54m 02s.xml">
-      <configuration name="Demo03_Exception_throw_demo.throwNullPointerExceptionTest" configurationId="JUnit" />
+    <history-entry file="Demo07_Exception_Throwable_demo_throwableTest - 2019.08.06 at 18h 00m 03s.xml">
+      <configuration name="Demo07_Exception_Throwable_demo.throwableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo04_Exception_requireNonNull_demo_requireNonNullTest - 2019.08.06 at 15h 01m 53s.xml">
-      <configuration name="Demo04_Exception_requireNonNull_demo.requireNonNullTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest01 - 2019.08.06 at 19h 26m 31s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo04_Exception_requireNonNull_demo_objectsRequireNonNullTest - 2019.08.06 at 15h 03m 14s.xml">
-      <configuration name="Demo04_Exception_requireNonNull_demo.objectsRequireNonNullTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest01 - 2019.08.06 at 19h 28m 22s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo04_Exception_requireNonNull_demo_objectsRequireNonNullTest - 2019.08.06 at 15h 03m 29s.xml">
-      <configuration name="Demo04_Exception_requireNonNull_demo.objectsRequireNonNullTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest02 - 2019.08.06 at 19h 32m 14s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo05_Exception_throws_demo_throwsTest - 2019.08.06 at 15h 18m 41s.xml">
-      <configuration name="Demo05_Exception_throws_demo.throwsTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest01 - 2019.08.06 at 19h 34m 58s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo05_Exception_throws_demo_throwsTest - 2019.08.06 at 15h 19m 07s.xml">
-      <configuration name="Demo05_Exception_throws_demo.throwsTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest01 - 2019.08.06 at 19h 35m 02s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo05_Exception_throws_demo_throwsTest - 2019.08.06 at 15h 23m 11s.xml">
-      <configuration name="Demo05_Exception_throws_demo.throwsTest" configurationId="JUnit" />
+    <history-entry file="Demo10_Exception_multiple_demo_multipleProcessTest03 - 2019.08.06 at 19h 41m 34s.xml">
+      <configuration name="Demo10_Exception_multiple_demo.multipleProcessTest03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo06_Exception_tryCatch_demo_tryCatchTest - 2019.08.06 at 15h 34m 51s.xml">
-      <configuration name="Demo06_Exception_tryCatch_demo.tryCatchTest" configurationId="JUnit" />
+    <history-entry file="Demo09_Exception_finally_demo_finallyReturnTest - 2019.08.06 at 19h 46m 58s.xml">
+      <configuration name="Demo09_Exception_finally_demo.finallyReturnTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo06_Exception_tryCatch_demo_tryCatchTest - 2019.08.06 at 15h 35m 29s.xml">
-      <configuration name="Demo06_Exception_tryCatch_demo.tryCatchTest" configurationId="JUnit" />
+    <history-entry file="Demo09_Exception_finally_demo_finallyReturnTest - 2019.08.06 at 19h 54m 45s.xml">
+      <configuration name="Demo09_Exception_finally_demo.finallyReturnTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7894000" />
+    <option name="totallyTimeSpent" value="13008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-1928" y="-73" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33002833" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2527115" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -407,16 +447,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo01_Exception_type_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="189">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -426,41 +459,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo02_Exception_process_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="12" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo03_Exception_throw_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="218" column="3" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="222" selection-end-column="5" />
+        <state relative-caret-position="924">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo04_Exception_requireNonNull_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="546">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo05_Exception_throws_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="819">
+          <caret line="42" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -469,11 +493,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo06_Exception_tryCatch_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="462">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3738">
+          <caret line="218" column="3" selection-start-line="218" selection-start-column="3" selection-end-line="222" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7434">
+          <caret line="380" column="28" selection-start-line="380" selection-start-column="28" selection-end-line="380" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo07_Exception_Throwable_demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo10_Exception_multiple_demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo09_Exception_finally_demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/com/zhouyi/domain/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo11_Exception_inheritance_father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception/src/com/zhouyi/demo01/Demo12_Exception_customException_demo/RegisterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
