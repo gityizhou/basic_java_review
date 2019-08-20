@@ -9,8 +9,9 @@ import java.util.Date;
 
 /**
  * java.lang.Throwable: 类是 Java中所有错误或者异常的超类
- * CompileException: 编译期异常， 进行编译时，java程序出现问题
- * RunTimeException: 运行期异常，java程序运行时，出现的异常
+ * Exception: 编译期异常(compile exception)， 进行编译时，java程序出现问题
+ * RuntimeException: 运行期异常，java程序运行时，出现的异常
+ * exception & error 的区别
  * Exception异常： 在正常处理后程序可以继续运行
  * Error错误： 出现错误必须修改源代码，否则程序无法运行
  */
